@@ -1,0 +1,5 @@
+1.在“系统变量”选项区域中查看PATH变量，单击“编辑”按钮，在“变量值”文本框的起始位置添加“%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;”
+
+2.选择【新建系统变量】在“变量名”文本框输入“JAVA_HOME”,在“变量值”文本框输入JDK的安装路径
+
+3.在“系统变量”选项区域中查看CLASSPATH 变量，单击“编辑”按钮，在“变量值”文本框输入“.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;”。
